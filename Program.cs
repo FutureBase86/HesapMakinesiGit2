@@ -13,6 +13,12 @@
             Console.Write("İşlem Seçiniz(+, -, *, /, %): ");
             string islem = Console.ReadLine();
 
+
+            if (islem == "+")
+            {
+                Console.WriteLine("Sonuc: " + sayi1 + sayi2);
+            }
+
         }
     }
 }
