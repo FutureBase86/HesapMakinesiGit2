@@ -18,6 +18,10 @@
             {
                 Console.WriteLine("Sonuc: " + sayi1 + sayi2);
             }
+            else if (islem == "-")
+            {
+                Console.WriteLine("Sonuc: " + (sayi1 - sayi2) );
+            }
 
         }
     }
