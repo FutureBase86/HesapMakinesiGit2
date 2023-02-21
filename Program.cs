@@ -34,6 +34,10 @@
             {
                 Console.WriteLine("Sonuc: " + (sayi1 % sayi2));
             }
+            else
+            {
+                Console.WriteLine("HAtalı İşlem");
+            }
 
         }
     }
